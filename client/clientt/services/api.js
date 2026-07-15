@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://weather-2-o93o.onrender.com/api",
 });
 
 export const getCurrentWeather = async (city, unit) => {
